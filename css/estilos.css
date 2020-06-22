@@ -1,0 +1,23 @@
+head {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: rgb(226, 209, 209);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+label {
+    position: absolute;
+    left: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
