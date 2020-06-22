@@ -46,7 +46,7 @@ class Pong {
             this.context,
             posX + this.canvas.width / 2,
             310,
-            "#dddd11"
+            "#3f6592"
         );
         this.paddle2.setHeigth(10);
         this.paddle2.setWidth(75);
@@ -59,7 +59,7 @@ class Pong {
             this.context,
             this.canvas.width / 2,
             this.canvas.height - this.paddle1.height,
-            "#dd0027"
+            "#f5003f"
         );
 
         this.ball.setRadius(5);

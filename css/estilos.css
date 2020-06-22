@@ -9,7 +9,7 @@ body {
 }
 
 canvas {
-    background: rgb(226, 209, 209);
+    background:#f3ce24;
     display: block;
     margin: auto;
     margin-top: 20px;
@@ -20,4 +20,45 @@ label {
     left: 50%;
     margin-bottom: 10px;
     padding-bottom: 15px;
+}
+
+.message{
+    position: absolute;
+    top: 25%;
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Pangolin', cursive;
+    font-weight: bolder;
+}
+
+#input{
+    border-radius: 2vh;
+}
+
+button{
+    margin-top: 2vh;
+    border-radius: 1vh;
+    background: #f5003f;
+    color: white;
+    border: none;
+}
+
+.points{
+    position: absolute;
+    right: 20%;
+    top: 15%;
+    font-family: 'Pangolin', cursive;
+    font-weight: bolder;
+}
+
+#playerup{
+    margin-bottom: 4vh;
+}
+#playerdown{
+    margin-top: 4vh;
+    color: #3f6592;
 }
